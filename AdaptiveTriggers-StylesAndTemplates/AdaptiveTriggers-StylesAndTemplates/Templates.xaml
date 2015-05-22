@@ -1,0 +1,30 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AdaptiveTriggers_StylesAndTemplates">
+
+    <DataTemplate x:Key="PhoneItemTemplate">
+        <StackPanel>
+            <TextBlock Text="{Binding title}" FontSize="24" Foreground="White" HorizontalAlignment="Center"/>
+            <TextBlock Text="{Binding mpaa_rating}" FontSize="12" Foreground="White" HorizontalAlignment="Center"/>
+            <Image x:Name="PosterImage" Source="{Binding posters.detailed}" Width="100" Height="100"/>
+        </StackPanel>
+    </DataTemplate>
+
+    <DataTemplate x:Key="TabletItemTemplate">
+        <StackPanel>
+            <TextBlock  Text="{Binding title}" FontSize="36" Foreground="White"  HorizontalAlignment="Center" />
+            <TextBlock  Text="{Binding mpaa_rating}" FontSize="24" Foreground="White" HorizontalAlignment="Center" />
+            <Image x:Name="PosterImage" Source="{Binding posters.detailed}" Width="150" Height="150" />
+        </StackPanel>
+    </DataTemplate>
+
+    <DataTemplate x:Key="DesktopItemTemplate">
+        <StackPanel>
+            <TextBlock  Text="{Binding title}" FontSize="54" Foreground="White" HorizontalAlignment="Center" />
+            <TextBlock  Text="{Binding mpaa_rating}" FontSize="36" Foreground="White" HorizontalAlignment="Center"/>
+            <Image x:Name="PosterImage" Source="{Binding posters.detailed}" Width="250" Height="250"/>
+        </StackPanel>
+    </DataTemplate>
+    
+</ResourceDictionary>
