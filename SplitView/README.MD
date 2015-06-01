@@ -1,3 +1,5 @@
+**For more detail you can follow my blog post here, http://blogs.msdn.com/b/quick_thoughts/archive/2015/06/01/windows-10-build-your-first-hamburger-menu.aspx**
+
 The SplitView control is a new addition to XAML for Windows 10 Applications. It’s basic use is to display a side menu, such as the one usually called “hamburger menu”.  One thing to note is that the SplitView is not a built in "Hamburger Menu".  It actually just gives you the ability to create a blank menu that you design and control.  In this sample, I created a simple hamburger menu that opens and closes by clicking the hamburger button.  I have also added a couple of "dummy" menu buttons that take no action.
 
 The SplitView is quite straightforward to use.  You can think of it in terms of two different pieces, the Pane and the Content. The “Pane” property contains the code of the menu itself.  This would represent the different menu/navigation buttons in your app. The page content goes into the control itself.  Think of the content as the typical page you would have added to your application. 
