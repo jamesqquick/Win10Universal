@@ -30,9 +30,8 @@ namespace AdaptiveTriggers_StylesAndTemplates
         public MainPage(Frame frame)
         {
             this.InitializeComponent();
-			//MoviesDataSource source = new MoviesDataSource(IN_THEATERS_API_CALL);
-			this.MySplitView.Content = frame;
-			
+			MoviesDataSource source = new MoviesDataSource(IN_THEATERS_API_CALL);
+            MainListView.ItemsSource = source;
 		}
 
 		protected override void OnNavigatedTo(NavigationEventArgs e)
