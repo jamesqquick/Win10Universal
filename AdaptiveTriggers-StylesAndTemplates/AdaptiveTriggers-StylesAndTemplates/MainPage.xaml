@@ -7,8 +7,7 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <ListView x:Name="MainListView">
-
+    <ListView x:Name="MainListView" HorizontalAlignment="Center" >
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="VisualStateGroup">
                 <VisualState x:Name="PhoneState">
@@ -21,7 +20,7 @@
                 </VisualState>
                 <VisualState x:Name="TabletState">
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="700"/>
+                        <AdaptiveTrigger MinWindowWidth="600"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="MainListView.ItemTemplate" Value="{StaticResource TabletItemTemplate}"/>
@@ -29,7 +28,7 @@
                 </VisualState>
                 <VisualState x:Name="DesktopState">
                     <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="1300"/>
+                        <AdaptiveTrigger MinWindowWidth="900"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="MainListView.ItemTemplate" Value="{StaticResource DesktopItemTemplate}"/>
@@ -39,7 +38,7 @@
         </VisualStateManager.VisualStateGroups>
         <ListView.ItemsPanel>
             <ItemsPanelTemplate>
-                <WrapGrid x:Name="MyWrapGrid" Orientation="Horizontal"/>
+                <WrapGrid x:Name="MyWrapGrid" Orientation="Horizontal"  />
             </ItemsPanelTemplate>
         </ListView.ItemsPanel>      
     </ListView>

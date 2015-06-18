@@ -119,6 +119,15 @@
     <Compile Include="MoviesDataSource.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RottenTomatoes.cs" />
+    <Compile Include="Views\InTheaters.xaml.cs">
+      <DependentUpon>InTheaters.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\OnDVD.xaml.cs">
+      <DependentUpon>OnDVD.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Upcoming DVD.xaml.cs">
+      <DependentUpon>Upcoming DVD.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -149,6 +158,18 @@
     <Page Include="Templates.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\InTheaters.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\OnDVD.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Upcoming DVD.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
