@@ -1,8 +1,8 @@
 **YouTube Video - https://www.youtube.com/watch?v=ykFj582AoDY **
 
-**GitHub sample - https://github.com/jqquick223/Win10Universal/tree/master/HamburgerButton **
+**GitHub sample - https://github.com/jamesqquick/Win10Universal/tree/master/HamburgerButton **
 
-**Blog Post http://blogs.msdn.com/b/quick_thoughts/archive/2015/05/22/win-10-splitview-creating-a-hamburger-button.aspx **
+**Blog Post http://jamesqquick.com/windows-10-splitview-creating-a-hamburger-button/**
 
 ** To run this sample, simply clone on your local PC running Windows 10 and open with Visual Studio 2015! **
 
