@@ -4,7 +4,7 @@ Adaptive Triggers are extremely useful for creating “responsive” application
 
 Github Sample - https://github.com/jamesqquick/Win10Universal/tree/master/AdaptiveTriggers-Intro
 Blog Post - http://jamesqquick.com/windows-10-adaptive-triggers-intro/
-YouTube Video
+YouTube Video - https://www.youtube.com/watch?v=f0GyG1VPXiQ
 
 Thanks for following through the post.  As always please comment below or find me on Twitter, @JAMESQQUICK, with any questions, comments, or concerns.
 
