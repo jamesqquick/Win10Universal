@@ -23,7 +23,7 @@ namespace AdaptiveTriggers_RottenTomatoes
     public sealed partial class MainPage : Page
     {
 
-        private const string API_KEY = "7ue5rxaj9xn4mhbmsuexug54";
+        private const string API_KEY = "****************";
         private const string BOX_OFFICE_API_CALL = "http://api.rottentomatoes.com/api/public/v1.0/lists/movies/in_theaters.json?page_limit=15&page=1&country=us&apikey=" + API_KEY;
         private const string DVD_API_CALL = "http://api.rottentomatoes.com/api/public/v1.0/lists/dvds/new_releases.json?page_limit=15&page=1&country=us&apikey=" + API_KEY;
 
