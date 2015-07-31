@@ -29,5 +29,4 @@
                        Foreground="White" Margin="0,0,0,25" HorizontalAlignment="Center"/>
         </StackPanel>
     </DataTemplate>
-
 </ResourceDictionary>

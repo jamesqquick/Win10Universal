@@ -11,66 +11,66 @@ namespace AdaptiveTriggers_RottenTomatoes
     {
 
         public event PropertyChangedEventHandler PropertyChanged;
-        private string name;
-        private string rating;
-        private int year;
-        private string description;
-        private string image;
+        private string _name;
+        private string _rating;
+        private int _year;
+        private string _description;
+        private string _image;
 
 
-        public Movie(string Title, string MPAA_Rating, int Year, string synopsis, string poster)
+        public Movie(string title, string mpaaRating, int year, string synopsis, string poster)
         {
-            name = Title;
-            rating = MPAA_Rating;
-            year = Year;
-            description = synopsis;
-            image = poster;
+            _name = title;
+            _rating = mpaaRating;
+            _year = year;
+            _description = synopsis;
+            _image = poster;
         }
 
         public string Image
         {
-            get { return image; }
+            get { return _image; }
             set
             {
-                image = value;
+                _image = value;
                 NotifyPropertyChanged("Image");
             }
         }
 
         public string Name
         {
-            get { return name; }
+            get { return _name; }
             set
             {
-                name = value;
+                _name = value;
                 NotifyPropertyChanged("Name");
             }
         }
         public string Rating
         {
-            get { return rating; }
+            get { return _rating; }
             set
             {
-                rating = value;
+                _rating = value;
                 NotifyPropertyChanged("Rating");
             }
         }
         public int Year
         {
-            get { return year; }
+            get { return _year; }
             set
             {
-                year = value;
+                _year = value;
                 NotifyPropertyChanged("Year");
             }
         }
 
         public string Description
         {
-            get { return description; }
+            get { return _description; }
             set
             {
-                description = value;
+                _description = value;
                 NotifyPropertyChanged("Description");
             }
         }

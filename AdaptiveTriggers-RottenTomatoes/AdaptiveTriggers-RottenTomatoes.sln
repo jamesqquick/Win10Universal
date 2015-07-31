@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22823.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveTriggers-RottenTomatoes", "AdaptiveTriggers-RottenTomatoes\AdaptiveTriggers-RottenTomatoes.csproj", "{CE49310E-10B0-4814-B454-E53484F70333}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdaptiveTriggers-RottenTomatoes", "AdaptiveTriggers-RottenTomatoes\AdaptiveTriggers-RottenTomatoes.csproj", "{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,24 +15,24 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CE49310E-10B0-4814-B454-E53484F70333}.Debug|ARM.ActiveCfg = Debug|ARM
-		{CE49310E-10B0-4814-B454-E53484F70333}.Debug|ARM.Build.0 = Debug|ARM
-		{CE49310E-10B0-4814-B454-E53484F70333}.Debug|ARM.Deploy.0 = Debug|ARM
-		{CE49310E-10B0-4814-B454-E53484F70333}.Debug|x64.ActiveCfg = Debug|x64
-		{CE49310E-10B0-4814-B454-E53484F70333}.Debug|x64.Build.0 = Debug|x64
-		{CE49310E-10B0-4814-B454-E53484F70333}.Debug|x64.Deploy.0 = Debug|x64
-		{CE49310E-10B0-4814-B454-E53484F70333}.Debug|x86.ActiveCfg = Debug|x86
-		{CE49310E-10B0-4814-B454-E53484F70333}.Debug|x86.Build.0 = Debug|x86
-		{CE49310E-10B0-4814-B454-E53484F70333}.Debug|x86.Deploy.0 = Debug|x86
-		{CE49310E-10B0-4814-B454-E53484F70333}.Release|ARM.ActiveCfg = Release|ARM
-		{CE49310E-10B0-4814-B454-E53484F70333}.Release|ARM.Build.0 = Release|ARM
-		{CE49310E-10B0-4814-B454-E53484F70333}.Release|ARM.Deploy.0 = Release|ARM
-		{CE49310E-10B0-4814-B454-E53484F70333}.Release|x64.ActiveCfg = Release|x64
-		{CE49310E-10B0-4814-B454-E53484F70333}.Release|x64.Build.0 = Release|x64
-		{CE49310E-10B0-4814-B454-E53484F70333}.Release|x64.Deploy.0 = Release|x64
-		{CE49310E-10B0-4814-B454-E53484F70333}.Release|x86.ActiveCfg = Release|x86
-		{CE49310E-10B0-4814-B454-E53484F70333}.Release|x86.Build.0 = Release|x86
-		{CE49310E-10B0-4814-B454-E53484F70333}.Release|x86.Deploy.0 = Release|x86
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Debug|ARM.ActiveCfg = Debug|ARM
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Debug|ARM.Build.0 = Debug|ARM
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Debug|ARM.Deploy.0 = Debug|ARM
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Debug|x64.ActiveCfg = Debug|x64
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Debug|x64.Build.0 = Debug|x64
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Debug|x64.Deploy.0 = Debug|x64
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Debug|x86.ActiveCfg = Debug|x86
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Debug|x86.Build.0 = Debug|x86
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Debug|x86.Deploy.0 = Debug|x86
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Release|ARM.ActiveCfg = Release|ARM
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Release|ARM.Build.0 = Release|ARM
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Release|ARM.Deploy.0 = Release|ARM
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Release|x64.ActiveCfg = Release|x64
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Release|x64.Build.0 = Release|x64
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Release|x64.Deploy.0 = Release|x64
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Release|x86.ActiveCfg = Release|x86
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Release|x86.Build.0 = Release|x86
+		{E2397A7A-5ABC-4DB4-9514-ED1A90F67F39}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

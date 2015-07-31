@@ -1,12 +1,11 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace AdaptiveTriggers_RottenTomatoes
 {
@@ -14,39 +13,22 @@ namespace AdaptiveTriggers_RottenTomatoes
     {
         public MoviesDataSource(string call)
         {
-            loadData(call);
+            LoadData(call);
         }
 
         //Load data from Rotten Tomatoes API
-        async public void loadData(string call)
+        async public void LoadData(string call)
         {
-
-            HttpClient ws = new HttpClient();
+            var ws = new HttpClient();
             var uri = new Uri(call);
-            string obstring = await ws.GetStringAsync(uri);
-            RottenTomatoes rt = JsonConvert.DeserializeObject<RottenTomatoes>(obstring);
-            foreach (RottenTomatoes.RottenTomatoeMovie movie in rt.movies)
+            var obstring = await ws.GetStringAsync(uri);
+            var rt = JsonConvert.DeserializeObject<RottenTomatoes>(obstring);
+            foreach (RottenTomatoes.RottenTomatoeMovie movie in rt.Movies)
             {
-                Movie temp = new Movie(movie.title, movie.mpaa_rating, movie.year, movie.synopsis,
-                    movie.posters.thumbnail);
+                var temp = new Movie(movie.Title, movie.MpaaRating, movie.Year, movie.Synopsis,
+                    movie.Posters.Thumbnail);
                 this.Add(temp);
             }
-
-            //Offline Testing
-
-            //else
-            //{
-            //	for(int i = 0; i < 15; i++)
-            //	{
-            //		RottenTomatoes.RottenTomatoeMovie temp = new RottenTomatoes.RottenTomatoeMovie();
-            //		temp.title = "Example"+ i;
-            //		temp.mpaa_rating = "PG";  
-            //		temp.posters = new RottenTomatoes.Posters();
-            //		temp.posters.detailed ="test.jpg" ;   //Grab a local image to test with
-            //		this.Add(temp);
-            //	}
-            //}
-
         }
     }
 }

@@ -31,5 +31,7 @@ namespace AdaptiveTriggers_RottenTomatoes
             this.InitializeComponent();
             MainListView.ItemsSource = new MoviesDataSource(BOX_OFFICE_API_CALL);
         }
+
+
     }
 }
