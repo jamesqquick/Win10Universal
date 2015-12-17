@@ -1,5 +1,26 @@
-# Win10Universal
+**Universal Windows Platform**
+======
+This repository is a collection of different UWP samples running on Windows 10 across multiple devices: tablets, phones, desktops, and eventually Xbox and HoloLens.  The same Windows 10 core runs across all of those devices allowing you, the developer, to hit tons of users with each app you build.  Check back here for updated samples on using the Windows 10 SDK, Adaptive UI, new XAML features, etc.
 
-I am going to begin to focus a little deeper on mobile application development  with C#/XAML for the Windows platform.  As I began to focus my technical stuff there, I am going to be blogging, recording, and posting as much as I can, so that you can learn from all of the mistakes that I encounter along the way :)  My plan is to be more consistent with my online presence.  I plan to tie every blog post with a youtube and a sample project on GitHub.  I want to share EVERYTHING with you to make it as easy as possible to get started!  As a reference, you can get started learning skills for the beginning Windows developer here, http://blogs.msdn.com/b/quick_thoughts/archive/2015/04/25/preparing-for-universal-windows-development.aspx.
+## **Technology**
 
-You can download any of the sample projects in this repository and run on your local machine running Windows 10 and Visual Studio 2015.
+ 1. Visual Studio
+ 2. C#/XAML
+ 3. Microsoft Azure
+
+
+
+```$ git clone https://github.com/jamesqquick/Win10Universal.git ```
+
+## **Other Resources**
+1. Windows 10 SDK (https://dev.windows.com/en-us/downloads/windows-10-sdk)
+2. Windows 10 Design (https://dev.windows.com/en-us/design)
+3. Windows 10 Index Page (http://jamesqquick.com/windows-10/)
+
+
+
+## **Contact** ##
+* **Website: http://jamesqquick.com**
+* **Email: james.q.quick@outlook.com**
+* **Twitter: [@jamesqquick](https:**//**twitter.com/jamesqquick)** 
+
